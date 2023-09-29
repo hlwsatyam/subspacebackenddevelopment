@@ -1,6 +1,6 @@
 
 const _ = require("lodash");
-
+const fetch = require("node-fetch");
 module.exports.SearchBlogsUsingParams = async (req, res) => {
     const { query } = req.query
 
